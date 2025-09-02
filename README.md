@@ -18,13 +18,13 @@ Turma: 3D2
 - [ ] Fazer lista suspensa de produtos
 
 Lista de funcionalidades:
-Sistema com cadastro de usuários
-Sistema de login com email e senha
-Visualização do cardápio da cantina
-Realização de pedidos de lanches pelo site
-Pagamento online via pix
-Status do pedido (em preparo, pronto, entregue)
-Personalização de pedidos
-Visualização de histórico de pedidos
-Busca de lanches por categoria
-Cancelamento de pedidos
+- Sistema com cadastro de usuários
+- Sistema de login com email e senha
+- Visualização do cardápio da cantina
+- Realização de pedidos de lanches pelo site
+- Pagamento online via pix
+- Status do pedido (em preparo, pronto, entregue)
+- Personalização de pedidos
+- Visualização de histórico de pedidos
+- Busca de lanches por categoria
+- Cancelamento de pedidos
