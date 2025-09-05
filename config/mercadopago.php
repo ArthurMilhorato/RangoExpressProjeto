@@ -1,12 +1,13 @@
 <?php
-require_once "../helpers/ConstantsTokens.php";
+require_once __DIR__ . "/../helpers/ConstantsTokens.php";
 class MercadoPago {
     private $access_token;
-    private $base_url = ConstantsURLs::$URL_API_MERCADO_PAGO;
+    private $base_url;
     
     public function __construct() {
         // Token de teste do Mercado Pago - SUBSTITUIR pelo token real
         $this->access_token = ConstantsURLs::$API_TOKEN;
+        $this->base_url = ConstantsURLs::$URL_API_MERCADO_PAGO;
     }
     
     public function createPixPayment($amount, $description, $payer_email) {
